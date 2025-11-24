@@ -127,49 +127,11 @@ RegisterNumber:  25012775
 ```
 
 ## Output:
-X shape: (20640, 3)
-Y shape: (20640, 2)
-Example X (first row): [ 8.3252     41.          6.98412698]
-Example Y (first row): [ 4.526 37.88 ]
-Train shapes: (16512, 3) (16512, 2)
-Test shapes:  (4128, 3) (4128, 2)
-Scaled X_train mean (approx): [-6.59266865e-15 -6.68608149e-17  8.01559239e-15]
-Scaled Y_train mean (approx): [1.92734502e-14 7.99652724e-14]
-First 5 predictions (original units):
-[[ 1.12443839 35.73516826]
- [ 1.54510779 35.7563396 ]
- [ 2.3960357  35.38792669]
- [ 2.67214831 35.53488572]
- [ 2.11759153 35.66145465]]
-Mean Squared Error (multi-output): 2.5786797117742917
-MSE per output: [0.66307497 4.49428445]
-Example 1
-Inputs (raw): [ 1.6812     25.          4.19220056]
-True outputs: [ 0.477 36.06 ]
-Predicted   : [ 1.12443839 35.73516826]
-----------------------------------------
-Example 2
-Inputs (raw): [ 2.5313     30.          5.03938356]
-True outputs: [ 0.458 35.14 ]
-Predicted   : [ 1.54510779 35.7563396 ]
-----------------------------------------
-Example 3
-Inputs (raw): [ 3.4801     52.          3.97715472]
-True outputs: [ 5.00001 37.8    ]
-Predicted   : [ 2.3960357  35.38792669]
-----------------------------------------
-Example 4
-Inputs (raw): [ 5.7376     17.          6.16363636]
-True outputs: [ 2.186 34.28 ]
-Predicted   : [ 2.67214831 35.53488572]
-----------------------------------------
-Example 5
-Inputs (raw): [ 3.725      34.          5.49299065]
-True outputs: [ 2.78 36.62]
-Predicted   : [ 2.11759153 35.66145465]
-----------------------------------------
-LinearRegression MSE: 0.6589108649336337
-SGDRegressor MSE: 0.6889231562327132
+
+<img width="712" height="649" alt="Screenshot 2025-11-24 103918" src="https://github.com/user-attachments/assets/7faa4c71-0f8d-4114-a4cd-6c59d5eca1b4" />
+
+<img width="595" height="401" alt="image" src="https://github.com/user-attachments/assets/55c3324f-6f5c-4ad7-ab3b-13b947dd0fc3" />
+
 
 ## Result:
 Thus the program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor is written and verified using python programming.
